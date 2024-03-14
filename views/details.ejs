@@ -1,0 +1,54 @@
+<%- include('partials/header') %>
+  <div class="container mt-5">
+    <h1>Enter Your Details :</h1>
+
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="card">
+          <div class="card-body">
+
+            <!-- Makes POST request to /register route -->
+            <form action="/details" method="POST">
+              <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" class="form-control" name="fullname">
+              </div>
+              <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" class="form-control" name="dob">
+              </div>
+              <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" class="form-control" name="address">
+              </div>
+              <div class="form-group">
+                <label for="salaryRange">Enter Salary Range :   </label>
+                <select name="salaryRange">
+                    <option value="3.5LPA">0-3.5 Lacs</option>
+                    <option value="8.0LPA">3.5-8.0 Lacs</option> 
+                    <option value="30.0LPA">8.0-30.0 Lacs</option> 
+                    <option value="MaxLPA"> >30.0 Lacs</option> 
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="employmentType">Occupation Type :        </label>
+                <select name="employmentType">
+                    <option value="unemployed">Unemployed</option>
+                    <option value="job">Job</option> 
+                    <option value="bussiness">Bussiness</option> 
+                    <option value="other"> Other Occupation </option> 
+                </select>
+              </div>
+
+
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <%- include('partials/header') %>

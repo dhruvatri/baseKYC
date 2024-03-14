@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+  <div class="container mt-5">
+    <h1 style="margin-bottom: 20px;">Upload PAN</h1>
+    <form action="/pan" method="POST">
+      <div class="form-group">
+        <label for="panid">PAN ID :</label>
+        <input type="text" class="form-control" name="panid">
+      </div>
+      <div class="form-group">
+        <h5 style="margin-top: 80px;">Upload PAN Image </h5>
+        <label for="panImage">Upload PAN Card Image :</label>
+        <input type="file" accept="image/*" name="panImage" style="margin-top: 20px; margin-bottom: 40px;" style="display: block;">
+      </div>
+        <button type="submit" class="btn btn-dark" style="display: block;" > Submit</button>
+    </form>
+    
+  </div>
+
+  <%- include('partials/header') %>

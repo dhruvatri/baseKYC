@@ -1,0 +1,46 @@
+
+body {
+  background-color: #E8ECEF;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.internal-container{
+  background-color: gray;
+  color: white;
+  border: #000 5px solid;
+  padding: 5px 5px 5px 5px;
+}
+
+.verified-docs{
+  background-color: green;
+  margin-left: 400px;
+  margin-right: 400px;
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 25px;
+}
+
+.unverified-docs{
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 450px;
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+}
+
+

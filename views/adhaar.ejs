@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+  <div class="container mt-5">
+    <h1 style="margin-bottom: 20px;">Upload Adhaar</h1>
+    <form action="/adhaar" method="POST">
+      <div class="form-group">
+        <label for="adhaarNumber">Adhaar Number :</label>
+        <input type="number" class="form-control" name="adhaarNumber">
+      </div>
+      <div class="form-group">
+        <h5 style="margin-top: 80px;">Upload Adhaar Image </h5>
+        <label for="adhaarImage">Upload Adhaar Card Image :</label>
+        <input type="file" accept="image/*" name="adhaarImage" style="margin-top: 20px; margin-bottom: 40px;" style="display: block;">
+      </div>
+        <button type="submit" class="btn btn-dark" style="display: block;" > Submit</button>
+    </form>
+    
+  </div>
+
+  <%- include('partials/header') %>
