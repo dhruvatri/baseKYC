@@ -35,8 +35,4 @@ Through baseKYC, we aim for an instantaneous and self-sufficient KYC process whi
 
 ## Team Members
 - Dhruv Atri
-- Abdul Ahad
-- Disha Yadav
 - Mohd Tauseen Iqbal
-- Mohd Zeeshan Jawed
-- Kaustubh Shatdhar
