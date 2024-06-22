@@ -33,6 +33,3 @@ Currently, Know Your Customer (KYC) is largely an offline and manual process or 
 ## Conclusion
 Through baseKYC, we aim for an instantaneous and self-sufficient KYC process which can be used by everyone. While also getting proper authentication and documents verification from users to maintain the credibility and authenticity of KYC process and reduce chances of any fraud or tempered document.
 
-## Team Members
-- Dhruv Atri
-- Mohd Tauseen Iqbal
