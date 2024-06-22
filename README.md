@@ -1,4 +1,4 @@
-# Online Video KYC - Team Legacy (DTAD) for Standard Chartered Hackathon
+# Online Video KYC 
 
 ## Demo Vedio
 
